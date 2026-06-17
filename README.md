@@ -5,7 +5,6 @@
 > * Almirón Arias Martina
 > * Brenna Renata
 > * Waldmann Agustín
-> * __________________________
 >
 > **Profesor:** Blasco Marcos
 
