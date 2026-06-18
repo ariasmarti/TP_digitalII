@@ -71,11 +71,12 @@ PIC16F887
 
 ### Esquemático del Circuito
 
-*Inserte aquí el esquemático completo desarrollado para el proyecto.*
+<img width="1004" height="500" alt="esquematico" src="https://github.com/user-attachments/assets/87a4428a-87ca-47f1-973e-cd5f850067a4" />
 
-```markdown
-![Esquemático Completo](hardware/esquematico.png)
-```
+### Diagrama de bloques del Circuito
+
+<img width="1536" height="1024" alt="diagrama_bloques" src="https://github.com/user-attachments/assets/c32f3960-69c3-474a-8780-2f4c9561e762" />
+
 
 ### Descripción del Circuito
 
@@ -279,12 +280,19 @@ Se verificó el funcionamiento del control mediante temperatura objetivo e hist�
 ### Capturas de Instrumental
 
 - Capturas de terminal serie.
+<img width="913" height="964" alt="terminal_serie" src="https://github.com/user-attachments/assets/8ade62a2-443e-4852-8007-70de5ea736a4" />
+
+Durante las etapas iniciales de validación se utilizó una terminal serie para verificar la correcta transmisión UART desde el PIC16F887. En esta etapa se enviaban mensajes de depuración que incluían el valor bruto del ADC y la temperatura calculada.
+Esto permitió validar el funcionamiento del ADC, la conversión de temperatura y la comunicación serie antes de integrar la interfaz gráfica en Python.
+  
 - Capturas de la interfaz gráfica.
-- Mediciones realizadas con multímetro.
+
+  <img width="254" height="502" alt="Interfaz_grafica" src="https://github.com/user-attachments/assets/0860a0be-aed8-416d-9e14-b0a0ac05c9dc" />
+
 
 ### Prototipo Real
 
-*Insertar fotografías del montaje final y del sistema en funcionamiento.*
+*<img width="960" height="1280" alt="prototipo_final" src="https://github.com/user-attachments/assets/04b0a9b7-0b86-42ac-90f3-189e81a62295" />
 
 ---
 
