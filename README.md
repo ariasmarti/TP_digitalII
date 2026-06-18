@@ -310,29 +310,4 @@ Sin esta conexión común, los MOSFETs no pueden ser controlados correctamente d
 
 La lámpara utilizada corresponde a una lámpara automotriz H7 de 12 V, la cual demanda corrientes elevadas y requiere cableado adecuado para evitar calentamientos excesivos.
 
----
-
-# 📂 6. Estructura del Repositorio
-
-```text
-├── firmware/
-│   ├── src/
-│   └── inc/
-│
-├── hardware/
-│   ├── esquematico.pdf
-│   ├── lista_materiales.xlsx
-│   └── pcb/
-│
-├── docs/
-│   ├── fotos/
-│   ├── capturas_uart/
-│   ├── diagrama_bloques.png
-│   └── diagrama_flujo.png
-│
-├── interfaz_python/
-│   ├── main.py
-│   └── recursos/
-│
-└── README.md
 ```# TP_digitalII
