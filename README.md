@@ -1,22 +1,14 @@
-# Monitor de Temperatura con PIC16F887
-
-> **Asignatura:** Electrónica Digital II - Universidad Nacional de Córdoba  
-> **Integrantes:**  
-> * Almirón Arias Martina
-> * Brenna Renata
-> * Waldmann Agustín
->
-> **Profesor:** Blasco Marcos
+# Control de Temperatura con PIC16F887
 
 ---
 
-# 🚀 1. Descripción General del Proyecto
+#  1. Descripción General del Proyecto
 
 El presente proyecto consiste en un sistema embebido de monitoreo y control de temperatura basado en un microcontrolador PIC16F887. El sistema adquiere la temperatura ambiente mediante un sensor LM35, procesa la información utilizando el conversor analógico-digital interno del microcontrolador y la presenta en tiempo real mediante dos displays de siete segmentos multiplexados.
 
 Además, el sistema incorpora comunicación serie UART con una interfaz gráfica desarrollada en Python, permitiendo visualizar la temperatura desde una computadora y controlar actuadores externos como una lámpara calefactora y un cooler. El objetivo principal es implementar un sistema de regulación térmica simple con monitoreo local y remoto.
 
-## 🎯 Alcances del Proyecto
+##  Alcances del Proyecto
 
 ### El sistema SÍ es capaz de:
 
@@ -37,7 +29,7 @@ Además, el sistema incorpora comunicación serie UART con una interfaz gráfica
 - Medición simultánea de múltiples sensores.
 - Interfaz web o aplicación móvil.
 
-## ⏩ Posibles Etapas Siguientes
+##  Posibles Etapas Siguientes
 
 - Diseño de una PCB dedicada para el sistema.
 - Incorporación de sensores adicionales.
@@ -48,9 +40,9 @@ Además, el sistema incorpora comunicación serie UART con una interfaz gráfica
 
 ---
 
-# 📐 2. Arquitectura del Sistema
+#  2. Arquitectura del Sistema
 
-## 🔌 Hardware e Interconexión
+##  Hardware e Interconexión
 
 ### Diagrama de Bloques
 
@@ -138,9 +130,9 @@ El multiplexado de los displays se realiza mediante Timer0 e interrupciones. La 
 
 ---
 
-# ⚡ 3. Especificaciones Eléctricas, Alimentación y Entorno
+#  3. Especificaciones Eléctricas, Alimentación y Entorno
 
-## 🔌 Parámetros de Alimentación
+##  Parámetros de Alimentación
 
 ### Tensión de operación
 
@@ -164,7 +156,6 @@ El multiplexado de los displays se realiza mediante Timer0 e interrupciones. La 
 
 ---
 
-## 📌 Electrónica Digital II
 
 ### Herramientas de Software
 
@@ -218,7 +209,7 @@ La secuencia de ejecución de la ISR es:
 
 ---
 
-# 🔄 4. Proceso de Integración y Desarrollo
+#  4. Proceso de Integración y Desarrollo
 
 ## Etapa 1 – Validación Inicial
 
@@ -246,7 +237,7 @@ Integración de MOSFETs para controlar un cooler y una lámpara calefactora de 1
 
 ---
 
-# 📊 5. Ensayos, Pruebas y Resultados
+#  5. Ensayos, Pruebas y Resultados
 
 ## Pruebas Funcionales Realizadas
 
