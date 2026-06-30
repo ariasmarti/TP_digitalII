@@ -64,6 +64,7 @@ PIC16F887
 ### Esquemático del Circuito
 
 <img width="1004" height="500" alt="esquematico" src="https://github.com/user-attachments/assets/87a4428a-87ca-47f1-973e-cd5f850067a4" />
+((fe de erratas: las resistencias de cada segmento del display son de 470 ohms))
 
 ### Diagrama de bloques del Circuito
 
